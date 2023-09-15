@@ -1,0 +1,103 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: goldenrod;
+    color: #03334E;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    color: #03334E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+main {
+    background-image: url(/loft-living-room-interior-design.jpg);
+    background-size: 1500px;
+    background-position: contain;
+    width: 200%;
+    height: 200vh;
+    background-repeat:repeat-x;
+    
+    
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+    
+  
+  
+  
+  
+  
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 15%;
+    height: 3vh;
+    transform-origin: 50% 0%;
+    animation-duration: 10s;
+    animation-name: button;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    
+    
+}
+a:hover {
+    width: 30%;
+    height: 5vh;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+@keyframes button {
+    0% {
+        transform:rotate(0deg);
+        
+    }
+    25% {
+        background-color: #03334E;
+    }
+    50% {
+        background-color: goldenrod;
+    }
+    75%{
+        background-color: #03334E;
+    }
+    100% {
+        transform: rotate(60deg);
+    }
+}
